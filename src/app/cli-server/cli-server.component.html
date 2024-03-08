@@ -1,0 +1,9 @@
+<p>cli-server works!</p>
+<app-success-alert />
+<div>
+  <input type="text" (input)="handleChange($event)" />
+</div>
+<div>
+  <input type="text" [(ngModel)]="serverName" />
+</div>
+<p>{{ serverName }}</p>
